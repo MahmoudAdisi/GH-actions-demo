@@ -3,8 +3,8 @@ name: cron workflow
 
 on: 
   schedule:
-    - cron: "0/5 * * * *"
-    - cron: "0/20 1 * * *"
+    - cron: " 1 0 1 * *"
+    - cron: "0/20 1 1 * *"
 
 jobs: 
   cron-workflow:
